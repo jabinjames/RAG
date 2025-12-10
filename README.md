@@ -22,6 +22,19 @@ The RAG pipeline follows four main steps:
 3.  **Retrieve:** On a user query, a similarity search retrieves the top **`k`** most relevant chunks.
 4.  **Augment & Generate:** The user query and the retrieved context are combined into a prompt, which is sent to the LLM for a final, grounded answer.
 
+Project Structure
+
+RAG/
+│── data/    
+
+│── notebook/  
+
+│── requirements.txt
+
+│── .env
+
+│── README.md
+
 5.  Follow these steps to set up and run the project locally.
 
 ### Prerequisites
@@ -32,4 +45,9 @@ The RAG pipeline follows four main steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone 
+git clone https://github.com/jabinjames/RAG.git
+```
+### 2. Install Dependencies
+```bash
+pip install -r requirments.txt
+```
